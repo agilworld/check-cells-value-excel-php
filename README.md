@@ -1,11 +1,16 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+# Simple Algo Check Cell Values Excel file with PHP-Laravel
+
+Test and validate your files excel with our command library, you can extend up and modify suits your needs and put to be library repository
+
+## How to run
+- `composer install`
+- optional run `php artisan key:generate`
+- run `php artisan render:excels`
+
+## Extend
+
+Please find path `data` in root directory, locate any file excels at there, register new file in class `app/Console/Commands/RenderExcels.php`
 
 ## About Laravel
 
